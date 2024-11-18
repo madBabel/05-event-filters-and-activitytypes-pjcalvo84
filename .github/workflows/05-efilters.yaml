@@ -2,11 +2,11 @@ name: 05 - Event Filters
 on: 
     push:
         branches:
-            - 'feature/*'
+            - 'features/*'
 
 jobs:
     echo:
         runs-on: ubuntu-latest
         steps:
             - name: Echo
-              run: echo "Hello, World!"
+              run: echo "Running whenever branch is features"
